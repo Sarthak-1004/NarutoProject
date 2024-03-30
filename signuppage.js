@@ -6,7 +6,7 @@ let fonteffect = document.querySelector("#font-effect");
 modeBtn.addEventListener("click", () => {
     if (currMode === "dark") {
         currMode = "light";
-        document.querySelector("body").style.backgroundImage = "url('/NarutoProjectImages/naruto\ and\ jiraya.jpg')";
+        document.querySelector("body").style.backgroundImage = "url('NarutoProjectImages/naruto and jiraya.jpg')";
         modeBtn.style.backgroundColor = 'black';
         modeBtn.style.color = 'white';
         effect.style.backgroundColor = 'black';
@@ -22,7 +22,7 @@ modeBtn.addEventListener("click", () => {
     }
     else {
         currMode = "dark";
-        document.querySelector("body").style.backgroundImage = "url('/NarutoProjectImages/itachi.jpg')";
+        document.querySelector("body").style.backgroundImage = "url('NarutoProjectImages/itachi.jpg')";
         modeBtn.style.backgroundColor = 'white';
         modeBtn.style.color = 'black';
         effect.style.backgroundColor = 'white';
