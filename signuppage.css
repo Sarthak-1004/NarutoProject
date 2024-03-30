@@ -8,7 +8,7 @@
 body {
     height: 100%;
     width: 100%;
-    background-image: url(/NarutoProjectImages/itachi.jpg);
+    background-image: url(NarutoProjectImages/itachi.jpg);
     background-size: cover;
     position: fixed;
 
